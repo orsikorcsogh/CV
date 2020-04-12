@@ -4,6 +4,13 @@
 img {
     margin-bottom: 1.5rem;
 }
+.faq,
+.contact {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
 body {
   background: url('assets/sahand-hoseini-jVojxJGIyFE-unsplash.jpg') repeat center;
   font-family: 'Libre Baskerville', serif;
@@ -97,7 +104,7 @@ h2::after {
 }
 .faq p {
   font-family: 'Muli', sans-serif;
-  text-align: left;
+  text-align: center;
   color: #d2ba87;
 }
 .faq li::after {
@@ -275,10 +282,11 @@ footer small {
 
   .question-group {
     display: inline-block;
-    width: 30%;
+    width: 70%;
     vertical-align: top;
     padding: 1.5rem;
     margin: .5rem;
+    text-align: right;
   }
 
   .question-group::after {
@@ -287,6 +295,9 @@ footer small {
 
   .question-group h3 {
     text-align: left;
+  }
+  question-group h4 {
+    text-align: right;
   }
 
 }
