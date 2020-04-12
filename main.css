@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+}
+img {
+    margin-bottom: 1.5rem;
+}
+body {
+  background: url('assets/sahand-hoseini-jVojxJGIyFE-unsplash.jpg') repeat center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #444349;
+}
+.cover {
+  background: url('assets/fejlec.jpg') no-repeat 70% center/cover;
+  display: table;
+  text-align: center;
+  height: 40vh;
+  width: 100vw;
+}
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+.text {
+  margin: 0 auto;
+  padding: .625rem;
+  color: rgba(154, 99, 0, 1);
+  font-size: 1.875rem;
+}
+.text h1 {
+  font-size: 3.55rem;
+  color: rgba(154, 99, 0, 1);
+  margin-bottom: 0; /* To negate the effect of the single-direction margin declaration. */
+}
+
+.tagline {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+}
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: rgba(154, 99, 0, 1);
+  height: 2px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+.locations {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+  color: rgba(154, 99, 0, 1);
+  
+}
+
+.blurb img {
+  height: 7.5rem;
+  
+}
+h2 {
+  font-size: 1.55rem;
+}
+
+}
+.blurb div {
+  font-family: 'Muli', sans-serif;
+  color: rgba(154, 99, 0, 1);
+}
+.blurb::after {
+   display: block;
+  content: "";
+  background-color: rgba(154, 99, 0, 1);
+  height: 2px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+  
+}
+h2::after {
+   display: block;
+  content: "";
+  background-color: rgba(154, 99, 0, 1);
+  height: 2px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+.faq {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+  text-align: center;
+}
+.faq h2 {
+  margin-top: 1rem;
+  text-align: center;/* To even out top and bottom margins. */
+}
+.faq p {
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+  color: #d2ba87;
+}
+.faq li::after {
+  display: block;
+  content: "";
+  background-color: rgba(154, 99, 0, 1);
+  height: 2px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+.ismeretek h2, p {
+  color: rgba(154, 99, 0, 1);
+  text-align: center;
+}
+.ismeretek ul {
+  list-style-type: none;
+  text-align: center;
+}
+.ismeretek li {
+  display: inline;
+  font-size: 30px;
+  text-align: center;
+}
+.ismeretek p::after {
+  display: block;
+  content: "";
+  background-color: rgba(154, 99, 0, 1);
+  height: 2px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+.munkak {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+  text-align: center;
+}
+.munkak h2 {
+  margin-top: 1rem;
+  text-align: center;/* To even out top and bottom margins. */
+}
+
+
+.munkak h2 {
+  color: white;
+  text-align: center;
+}
+.munkak ul {
+  list-style-type: none;
+  text-align: center;
+}
+.munkak li {
+  display: inline;
+  font-size: 30px;
+  text-align: center;
+}
+.munkak h2::after {
+  display: block;
+  content: "";
+  background-color: white;
+  height: 2px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+.contact {
+  text-align: center;
+}
+.contact h2 {
+  text-align: center;
+  color: rgba(154, 99, 0, 1);
+}
+.contact ul {
+  list-style-type: none;
+  text-align: center;
+}
+.contact li {
+  display: inline;
+  font-size: 30px;
+  text-align: center;
+}
+.contact h5 {
+  display: inline-block;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+}
+.contact h4 {
+  padding: 2px;
+  margin-top: 3px;
+  font-weight: bold;
+  text-align: center;
+}
+footer {
+  background: url('assets/footer.jpg') no-repeat 1% center;
+  position: relative;
+  height: 20vh;
+  width: 100vw;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .875rem;
+  
+  
+}
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 1.5;
+  
+}
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('assets/fejlec.jpg') no-repeat center/cover;
+  }
+
+}
+
+...
+
+@media (min-width: 768px) {
+
+  .text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .text h1 {
+    font-size: 7rem;
+  }
+
+}
+
+...
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
+}
+@media (min-width: 768px) {
+
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb::after {
+    display: none;
+  }
+
+}
+@media (min-width: 768px) {
+
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
+}
+@media (min-width: 768px) {
+
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: left;
+  }
+
+}
+@media (min-width: 768px) {
+
+  footer {
+    min-height: 7vh;
+    background: url('assets/footer.jpg') no-repeat 3% center;
+  }
+
+}
